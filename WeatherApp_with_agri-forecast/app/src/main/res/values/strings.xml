@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">WeatherApp based Agri-forecast</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Current Weather</string>
+    <string name="nav_item_notifications">4 days Forecast </string>
+    <string name="nav_item_hello_blank_fragment">Notifications</string>
+    <string name="nav_item_PositionWork">Nearest Dealer and Fertilizer Shop</string>
+    <string name="nav_item_about">About Us</string>
+
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_hello_blank_fragment</item>
+        <item>@string/nav_item_PositionWork</item>
+        <item>@string/nav_item_about</item>
+
+
+    </string-array>
+
+    <string name="title_messages">Forecast</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_position_work">position</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.WeatherApp" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ios"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name="info.androidhive.WeatherApp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.DataShow"
+            android:label="DataShow" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.database.DatabaseWork"
+            android:label="database.DatabaseWork" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.database.DatabaseHandler"
+            android:label="database.DatabaseHandler" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.Forecast"
+            android:label="Forecast" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.DownloadForecast"
+            android:label="DownloadForecast" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.ForecastShow"
+            android:label="ForecastShow" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.database.PositionWork"
+            android:label="@string/title_activity_position_work" >
+        </activity>
+        <activity
+            android:name="info.androidhive.WeatherApp.activity.Aboutus"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+    </application>
+
+</manifest>
